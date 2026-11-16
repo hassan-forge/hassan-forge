@@ -4,7 +4,7 @@
 
 I'm a **React Native & Expo developer** who builds iOS and Android apps from idea to App Store and Google Play: one TypeScript codebase, real devices, real users.
 
-4+ years shipping production apps, including **ViuLive** (multi-camera live streaming, 100K+ downloads), **Eat** (restaurant reservations, 100K+ downloads) and **Tutorful** (tutoring marketplace, 50K+ downloads). Virtual showroom Delos by latest project
+4+ years shipping production apps, including **ViuLive** (multi-camera live streaming, 100K+ downloads), **Eat** (restaurant reservations, 100K+ downloads) and **Tutorful** (tutoring marketplace, 50K+ downloads). Virtual showroom Delos DIGITAL is my latest project
 
 ---
 
