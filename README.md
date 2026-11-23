@@ -1,57 +1,39 @@
-Your team already pays for the software. The slow part is the work between the tools: copying leads from a form into the CRM, answering the same customer question for the tenth time, building the same weekly report by hand. I find that work and replace it with AI agents, RAG assistants and automations that run inside the systems you already use.
+## Hi, I'm Hassan
 
-WHAT WORKING WITH ME LOOKS LIKE
-I don't take a spec and disappear. I join your Slack or Teams, talk to the people who do the work, and watch where the time goes. Then I build the fix inside your tools, put it in front of real users, and keep improving it until it saves time you can measure.
+I'm a forward deployed AI engineer. I work with a team on a real process, find the manual steps that slow it down, and replace them with AI agents, RAG assistants and automations that run inside the tools the team already uses.
 
-WHAT I BUILD
-AI agents
-Agents that read, decide and act across your CRM, inbox, documents and internal APIs. For example: an agent that reads each new lead or support email, looks the customer up in your CRM, drafts the reply, and creates the follow-up task. A person approves anything that touches customers or money.
+Before moving fully into AI work I spent 4+ years building production software: API integrations, real-time data sync, auth, testing and CI/CD for startup and enterprise clients.
 
-RAG assistants (AI that answers from your own data)
-Assistants that answer questions from your documents, help center, product data and policies, for your customers on your website or for your staff inside Slack. Every answer links to its source, and when the answer isn't in your data the assistant says so instead of guessing.
+### What I build
 
-MCP servers and custom AI tools
-MCP lets Claude, ChatGPT or your own agent use your systems directly: read your database, look up an order, open a ticket. I build these with clear permissions, so the AI can only see and do what you allow.
+- **AI agents** that read, decide and act across a CRM, inbox, documents and internal APIs, with a person approving the steps that touch customers or money
+- **RAG assistants** that answer from a company's own documents and data, with a source on every answer and an honest "I don't know" when the answer isn't there
+- **MCP servers** that let Claude, ChatGPT or a custom agent use internal systems, with clear permissions and an audit log
+- **Workflow automation** in n8n, Make or Zapier, and Python or Node.js services when a workflow tool isn't enough
 
-Workflow automation
-n8n, Make or Zapier for simple flows that your team can see and edit. Custom Python (FastAPI) or Node.js services when the logic is complex, the volume is high, or the data is sensitive.
+### Projects
 
-Internal tools and dashboards
-The small admin panels, review screens and reports your team uses every day, built on Supabase or PostgreSQL.
+| Project | What it shows |
+|---|---|
+| [ai-support-agent](https://github.com/hassan-forge/ai-support-agent) | FastAPI support agent: RAG over docs with citations, tool calls (order lookup, ticket creation), a human approval queue for risky actions, evals and tests |
+| [crm-mcp-server](https://github.com/hassan-forge/crm-mcp-server) | TypeScript MCP server that gives an AI model safe access to CRM data: read and write tools, a permission allowlist and an audit log |
 
-AI AND AUTOMATION WORK I'VE SHIPPED
-- Customer-facing AI chatbots built with LangChain and the OpenAI API. They used retrieval over product and FAQ data, so customers got answers from the real catalog and help content.
-- CRM-connected booking with calendar sync and webhooks. New bookings went straight into the CRM and calendar, and lead tracking and scheduling accuracy improved by 35%.
-- Real-time data sync between Shopify, Firebase and Google Sheets, so orders, stock and reports stayed in step without manual exports.
-- Automated email and messaging flows for onboarding and re-engagement, triggered by what users actually do.
-- AI meal ratings and an AI coaching chat for Digbi Health, a digital health company.
+Both are reference projects I built to show how I structure client work. They run locally with no API key (a mock model is included) and switch to Claude or OpenAI with one setting.
 
-HOW A PROJECT RUNS
-- Discovery: we look at one process and the number it should move, such as hours saved, response time or errors. You get a short written plan covering what I'll build, which tools it connects to and what it will cost to run.
-- First version: working on your real data within 1 to 2 weeks.
-- Testing: real cases and edge cases, logging, cost limits, and a handoff to a person when the AI isn't sure.
-- Launch: deployed in your accounts, with documentation and a plain-English walkthrough for your team.
-- Improvement: I review what the AI got wrong each week and fix it.
+### How I work
 
-WHAT YOU CAN EXPECT FROM ME
-- Your accounts, your repo, your API keys. You own all of the code and data.
-- Weekly updates you can read in two minutes.
-- Honest advice. If a simple automation or a small process change works better than AI, I'll tell you.
+1. Start from one process and the number it should move: hours saved, response time or errors
+2. Ship a working version on real data in 1 to 2 weeks
+3. Add the production parts: error handling, logging, cost limits, evals and a handoff to a person
+4. Deploy in the client's own accounts and hand over code, docs and a walkthrough
 
-A GOOD FIT IF
-- Your team loses hours every week moving data between tools
-- Your support or sales team answers the same questions every day
-- You pay for ChatGPT or Claude but it isn't connected to your real work
-- You have an AI prototype that works in a demo but not with real customers
+### Stack
 
-WAYS TO START
-- An audit of one workflow, with a written plan for what to automate first
-- A fixed-scope build of one agent, RAG assistant or automation
-- Ongoing part-time support inside your team, week by week
+**AI:** Claude API · OpenAI API · LangChain · RAG · vector databases · Model Context Protocol · Claude Code
+**Backend:** Python · FastAPI · Node.js · TypeScript · PostgreSQL · Supabase · Firebase
+**Automation:** n8n · Make · Zapier · REST APIs and webhooks
+**Delivery:** Docker · GitHub Actions · AWS
 
-STACK
-Python, FastAPI, Node.js, TypeScript, OpenAI API, Claude API, LangChain, RAG, vector databases, Model Context Protocol (MCP), Claude Code, n8n, Make, Zapier, Supabase, PostgreSQL, Firebase, REST APIs and webhooks, AWS.
+### Work with me
 
-I've spent 4+ years building production software and now work fully on AI agents and automation. with 4+ hours of overlap with US and UK working hours.
-
-Tell me which task your team keeps doing by hand and which tools it touches. I'll reply with what I'd build first and how long it would take.
+Available for AI agent, RAG and automation projects through [Upwork](https://www.upwork.com/freelancers/~01ce9cdccec9e1b9da).
