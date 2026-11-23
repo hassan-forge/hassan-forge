@@ -29,10 +29,10 @@ Both are reference projects I built to show how I structure client work. They ru
 
 ### Stack
 
-**AI:** Claude API · OpenAI API · LangChain · RAG · vector databases · Model Context Protocol · Claude Code
-**Backend:** Python · FastAPI · Node.js · TypeScript · PostgreSQL · Supabase · Firebase
-**Automation:** n8n · Make · Zapier · REST APIs and webhooks
-**Delivery:** Docker · GitHub Actions · AWS
+- **AI:** Claude API · OpenAI API · LangChain · RAG · vector databases · Model Context Protocol · Claude Code
+- **Backend:** Python · FastAPI · Node.js · TypeScript · PostgreSQL · Supabase · Firebase
+- **Automation:** n8n · Make · Zapier · REST APIs and webhooks
+- **Delivery:** Docker · GitHub Actions · AWS
 
 ### Work with me
 
