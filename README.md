@@ -17,6 +17,9 @@ Before moving fully into AI work I spent 4+ years building production software: 
 |---|---|
 | [AI Study-Abroad Counselor](case-studies/study-abroad-ai-counselor.md) | Multi-agent RAG counselor for a study-abroad consultancy. Answers student questions from the consultancy's own data and qualifies leads for sales. **Live in production, serving students across 23 countries.** LangGraph, Qdrant, OpenAI, FastAPI, Next.js, AWS |
 | [Admitly](case-studies/admitly.md) | 8 AI agents running the student journey across 13 automated stages, from first inquiry to post-arrival follow-up, with a dashboard for the team. In final testing. Gemini 2.5 Flash, FastAPI, Gmail automation, Flutter Web, AWS |
+| SparkEngine | Backend for a no-code agentic automation platform: multi-agent orchestration, tool calls, RAG, and one LLM layer that switches between OpenAI, Llama and DeepSeek. Python, FastAPI, NestJS, Supabase, Redis, Kubernetes |
+| AI Lawyer | Retrieval pipelines and context management for a legal assistant, so answers come from the user's own contracts and policies and hold context across long conversations |
+| Digbi Health (at Devsinc) | AI meal ratings and an AI coaching chat in a live health app, on the OpenAI API with structured outputs, retries and rate-limit handling |
 
 Client code stays private; the links above are case studies with the architecture and results.
 

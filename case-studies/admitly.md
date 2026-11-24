@@ -3,7 +3,7 @@
 **8 AI agents running the student journey across 13 automated stages, from first inquiry to post-arrival follow-up.**
 
 Client: the same study-abroad consultancy as the [AI Study-Abroad Counselor](study-abroad-ai-counselor.md).
-Role: forward deployed AI engineer, sole engineer on the project.
+Role: forward deployed AI engineer at the consultancy.
 Status: in final testing before launch.
 
 > This is a case study. The code and data belong to the client, so they are not published here.

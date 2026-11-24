@@ -3,7 +3,7 @@
 **Multi-agent RAG system, live in production, serving students across 23 countries.**
 
 Client: a study-abroad consultancy with offices in Pakistan, the UK and the UAE.
-Role: forward deployed AI engineer, sole engineer on the project.
+Role: forward deployed AI engineer at the consultancy.
 
 > This is a case study. The code and data belong to the client, so they are not published here.
 
