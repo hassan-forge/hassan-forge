@@ -11,7 +11,16 @@ Before moving fully into AI work I spent 4+ years building production software: 
 - **MCP servers** that let Claude, ChatGPT or a custom agent use internal systems, with clear permissions and an audit log
 - **Workflow automation** in n8n, Make or Zapier, and Python or Node.js services when a workflow tool isn't enough
 
-### Projects
+### Client work
+
+| Project | What it is |
+|---|---|
+| [AI Study-Abroad Counselor](case-studies/study-abroad-ai-counselor.md) | Multi-agent RAG counselor for a study-abroad consultancy. Answers student questions from the consultancy's own data and qualifies leads for sales. **Live in production, serving students across 23 countries.** LangGraph, Qdrant, OpenAI, FastAPI, Next.js, AWS |
+| [Admitly](case-studies/admitly.md) | 8 AI agents running the student journey across 13 automated stages, from first inquiry to post-arrival follow-up, with a dashboard for the team. In final testing. Gemini 2.5 Flash, FastAPI, Gmail automation, Flutter Web, AWS |
+
+Client code stays private; the links above are case studies with the architecture and results.
+
+### Open-source projects
 
 | Project | What it shows |
 |---|---|
@@ -29,7 +38,7 @@ Both are reference projects I built to show how I structure client work. They ru
 
 ### Stack
 
-- **AI:** Claude API · OpenAI API · LangChain · RAG · vector databases · Model Context Protocol · Claude Code
+- **AI:** Claude API · OpenAI API · Google Gemini · LangGraph · LangChain · multi-agent systems · RAG · Qdrant · Model Context Protocol · Claude Code
 - **Backend:** Python · FastAPI · Node.js · TypeScript · PostgreSQL · Supabase · Firebase
 - **Automation:** n8n · Make · Zapier · REST APIs and webhooks
 - **Delivery:** Docker · GitHub Actions · AWS
