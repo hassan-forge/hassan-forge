@@ -5,7 +5,8 @@
 Client: a study-abroad consultancy with offices in Pakistan, the UK and the UAE.
 Role: forward deployed AI engineer at the consultancy.
 
-> This is a case study. The code and data belong to the client, so they are not published here.
+> This is a case study. The production code and data belong to the client, so they are not published here.
+> **Want to see the code?** I rebuilt the same approach as an open-source demo with sample data: [study-abroad-counselor-demo](https://github.com/hassan-forge/study-abroad-counselor-demo) (LangGraph agents, Qdrant RAG, rule-based lead scoring, FastAPI, Next.js, tests and CI).
 
 ## The problem
 

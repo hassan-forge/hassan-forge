@@ -27,10 +27,11 @@ Client code stays private; the links above are case studies with the architectur
 
 | Project | What it shows |
 |---|---|
+| [study-abroad-counselor-demo](https://github.com/hassan-forge/study-abroad-counselor-demo) | Public rebuild of the AI Study-Abroad Counselor with sample data: 7 LangGraph agents, Qdrant RAG with citations, rule-based lead scoring and CRM handoff, FastAPI with streaming, a Next.js chat, 30 tests and CI |
 | [ai-support-agent](https://github.com/hassan-forge/ai-support-agent) | FastAPI support agent: RAG over docs with citations, tool calls (order lookup, ticket creation), a human approval queue for risky actions, evals and tests |
 | [crm-mcp-server](https://github.com/hassan-forge/crm-mcp-server) | TypeScript MCP server that gives an AI model safe access to CRM data: read and write tools, a permission allowlist and an audit log |
 
-Both are reference projects I built to show how I structure client work. They run locally with no API key (a mock model is included) and switch to Claude or OpenAI with one setting.
+These are reference projects I built to show how I structure client work. They run locally with no API key (an offline model is included) and switch to a real model with one setting.
 
 ### How I work
 
