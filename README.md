@@ -32,7 +32,7 @@ Client code stays private; the links above are case studies with the architectur
 | [crm-mcp-server](https://github.com/hassan-forge/crm-mcp-server) | TypeScript MCP server that gives an AI model safe access to CRM data: read and write tools, a permission policy and an audit log. Includes a Next.js console that drives the server over MCP |
 | [expo-supabase-starter](https://github.com/hassan-forge/expo-supabase-starter) | React Native + Expo app on a Supabase backend: auth, profiles with row level security, and a Deno Edge Function that sends push notifications |
 
-These are reference projects I built to show how I structure client work. They run locally with no API key (an offline model is included) and switch to a real model with one setting.
+These are reference projects I built to show how I structure client work. The AI projects run locally with no API key (an offline model is included) and switch to a real model with one setting.
 
 ### How I work
 
